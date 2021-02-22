@@ -13,6 +13,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bookstore</name>
 	<description>Cloud Bookstore</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>bookstore-api</module>
+		<module>bookstore-db</module>
+		<module>bookstore-web</module>
+	</modules>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
